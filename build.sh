@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t abraverm/pycharm .
+docker build -t abraverm/pycharm:scipy .
