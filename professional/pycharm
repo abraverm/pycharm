@@ -4,4 +4,4 @@ docker run -ti --rm \
         -e HOME="$HOME" \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
         -v "$HOME":"$HOME" \
-        abraverm/pycharm
+        abraverm/pycharm:professional
