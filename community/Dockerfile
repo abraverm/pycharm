@@ -2,7 +2,7 @@ FROM fedora
 MAINTAINER Alexander Braverman "abraverm@redhat.com"
 ENV PYCHARM pycharm-community-4.0.3
 # Minimal
-RUN yum install -y -q wget java-1.7.0-openjdk which tar && yum clean all
+RUN yum install -y -q sudo wget java-1.7.0-openjdk which tar && yum clean all
 # Improve Fonts
 RUN yum install -y -q abattis-cantarell-fonts && yum clean all
 # Python pip
